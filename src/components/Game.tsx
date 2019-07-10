@@ -9,6 +9,7 @@ const Game: React.FC = () => {
     const [xIsNext, setXIsNext] = useState(true);
 
     const restart = () => {
+        setXIsNext(true);
         setSquares(squaresInitValue);
     };
 
